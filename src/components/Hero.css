@@ -1,0 +1,21 @@
+.bg-image {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+  min-height: 250px;
+}
+.bg-image div {
+  width: 400px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.bg-image button {
+  display: block;
+  padding: 14px 1.3rem;
+  color: #ffffff;
+  background-color: #f02d00;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

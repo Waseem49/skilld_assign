@@ -1,0 +1,65 @@
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo_sec {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 150px; /* Adjust based on your logo size */
+  height: auto;
+}
+.nav_p {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.nav_p span {
+  color: black;
+}
+
+.info-card-contaner {
+  display: flex;
+  justify-content: space-between;
+}
+.right-side {
+  display: flex;
+  gap: 1rem;
+}
+/* .firstcon {
+  border: 1px solid black;
+}
+.secondcon {
+  border: 1px solid rgb(235, 8, 8);
+} */
+
+.right-side {
+  padding-right: 8rem;
+}
+.sear {
+  cursor: pointer;
+}
+.jobcon {
+  display: block;
+  padding: 8px 1rem;
+  color: #ffffff;
+  background-color: #f02d00;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.footer-main {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(23, 23, 23);
+  border-bottom: 1px rgb(137, 134, 134) black;
+  padding: 1rem 0;
+}
+.footer-main > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.footer-main > div h3 {
+  color: white;
+  cursor: pointer;
+}
+.footer-main > div p {
+  font-size: 1rem;
+  padding: 2px;
+  margin: 0;
+  color: rgb(77, 77, 77);
+  &&:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+.copyright {
+  border-top: 1px solid rgb(160, 155, 155);
+  background-color: rgb(23, 23, 23);
+}
+.copyright p {
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}

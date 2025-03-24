@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgb(14, 13, 13);
+  color: white;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  width: 80vw;
+  margin: 10px;
+  gap: 20px;
+}
+
+.navbar-menu a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown-trigger {
+  position: relative;
+  display: inline-block;
+}
+
+.info-card {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: black;
+  background-color: white;
+  padding: 0.8rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 200px;
+  white-space: nowrap;
+}
+
+.info-card p {
+  padding: 0.3rem 0;
+}
+.info-card p:hover {
+  cursor: pointer;
+  color: #f02d00;
+}
+
+.navbar-menu a:hover {
+  color: #f02d00;
+}

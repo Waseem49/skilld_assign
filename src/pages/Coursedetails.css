@@ -1,0 +1,61 @@
+.course-main {
+  margin: 1rem;
+  width: 75%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.header {
+  border: 1px solid rgb(66, 62, 62);
+  width: 100%;
+  height: 300px;
+  padding-top: 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.bottam-div h2 {
+  color: #f02d00;
+}
+.ollist {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.ollist h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.ollist ul {
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.ollist ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  color: #555;
+}
+
+/* Custom bullet styling */
+.ollist ul li::before {
+  content: "•";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  color: #f02d00;
+  font-size: 1.2em;
+}
